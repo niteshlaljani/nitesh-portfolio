@@ -61,6 +61,14 @@ export const HeroSection = () => {
               >
                 Get in Touch
               </a>
+              <a
+                href="/resume.pdf"
+                download
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-primary/30 text-primary font-medium text-sm hover:bg-primary/10 active:scale-[0.97] transition-all duration-200"
+              >
+                <Download size={16} />
+                Resume
+              </a>
             </motion.div>
 
             <motion.div
