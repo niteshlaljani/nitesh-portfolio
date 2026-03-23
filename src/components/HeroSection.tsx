@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
+import profileImg from "@/assets/nitesh-profile.jpg";
 
 export const HeroSection = () => {
   return (
