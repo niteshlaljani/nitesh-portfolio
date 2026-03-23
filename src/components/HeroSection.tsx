@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
+import { Github, Linkedin, Mail, ArrowDown, Download } from "lucide-react";
 import profileImg from "@/assets/nitesh-profile.jpg";
 
 export const HeroSection = () => {
@@ -60,6 +60,14 @@ export const HeroSection = () => {
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-border bg-secondary text-secondary-foreground font-medium text-sm hover:bg-muted active:scale-[0.97] transition-all duration-200"
               >
                 Get in Touch
+              </a>
+              <a
+                href="/resume.pdf"
+                download
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-primary/30 text-primary font-medium text-sm hover:bg-primary/10 active:scale-[0.97] transition-all duration-200"
+              >
+                <Download size={16} />
+                Resume
               </a>
             </motion.div>
 
